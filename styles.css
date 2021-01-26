@@ -34,7 +34,7 @@ html {
 }
 .text-pink {
   color: var(--softPink);
-  padding-left: 0.5rem;
+  /* padding-left: 0.5rem; */
   margin-top: 1rem;
   font-weight: normal;
 }
@@ -52,8 +52,6 @@ html {
 .tab-purple {
   background-color: var(--veryDarkMagenta);
   padding: 2rem 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
   border-radius: 0.5rem;
   margin-bottom: 1rem;
@@ -86,6 +84,7 @@ html {
   grid-column: 2 / span 3;
   font-size: smaller;
   font-weight: bold;
+  padding-left: 1rem;
 }
 .star-text {
   font-size: smaller;
@@ -106,4 +105,8 @@ html {
 }
 #bottom-img-mobile {
   display: inline;
+}
+.head-container {
+  display: flex;
+  justify-content: flex-start;
 }
