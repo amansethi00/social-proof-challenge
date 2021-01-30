@@ -46,7 +46,6 @@ html {
   margin-right: 1rem;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
-  max-width: 15rem;
 }
 .space {
   width: 100%;
@@ -136,7 +135,7 @@ html {
 
     text-align: center;
     justify-content: center;
-    padding: 8rem 10rem;
+    padding: 8rem 10rem 0rem 10rem;
   }
   .heading-container {
     grid-row: 1;
@@ -190,10 +189,10 @@ html {
   #review1 {
   }
   #review2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   #review3 {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
 
