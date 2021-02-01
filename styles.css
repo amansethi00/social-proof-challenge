@@ -110,7 +110,6 @@ html {
     margin: 0rem 0rem;
     padding: 0rem 0rem;
     font-weight: bolder;
-
     font-size: xx-large;
     text-align: left;
   }
@@ -135,7 +134,7 @@ html {
 
     text-align: center;
     justify-content: center;
-    padding: 8rem 10rem 0rem 10rem;
+    padding: 6rem 10rem 0rem 12rem;
   }
   .heading-container {
     grid-row: 1;
